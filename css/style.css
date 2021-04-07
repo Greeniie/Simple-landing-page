@@ -1,0 +1,167 @@
+* {
+padding: 0;
+margin: 0;
+max-width: 100%;
+}
+
+.banner {
+   background-image: url("../images/bg1.jpg");
+	background-size: cover;
+	background-position: center;
+    min-height: 600px;
+
+}
+
+.navbar {
+	position: relative;
+	width: 100%;
+	z-index: 1000;
+}
+
+.logo img {
+	max-height: 2rem;
+	width: auto;
+    
+}
+
+
+ul {
+	list-style: none;
+	font-family: brandon grotesque;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.navbar-toggler {
+	background-color: #17a2b8;
+}
+
+
+
+#signupbutton {
+	margin-left: 5px;
+}
+ 
+a {
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: #17a2b8 !important;
+}
+
+.btn:hover{
+    color:white !important;
+    
+}
+
+.row {
+    margin-left: 0;
+}
+
+.showcase {
+    padding-top: 100px;
+}
+.showcase  h1{
+    text-align: center;
+    font-family: brandon grotesque;
+    font-size: 80px;
+} 
+ 
+.showcase p{
+  text-align: center;
+  font-family: brandon grotesque;
+  font-size: 20px;
+
+}
+ 
+.button {
+    font-family: brandon grotesque;  
+}
+
+
+.forget {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: brandon grotesque;
+    
+}
+
+.forget img {
+    height: 80px;
+	width: auto;
+    padding-bottom: 15px;
+   
+}
+
+
+.text {
+    margin-top: 50px;
+    padding: 0px;
+}
+.phone {
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.footer {
+    margin-top: 80px;
+}
+
+.footer img {
+    max-height: 2rem;
+	width: auto;
+    margin-top: 20px;
+}
+
+.footer a:hover {
+    color: #6c757d !important;
+}
+
+svg {
+    height: 2rem;
+    width: auto;
+    padding-right: 3px;
+    color:rgb(23, 162, 184) !important;
+    margin-top: 15px;
+}
+svg:hover {
+    color: #6c757d !important;
+}
+.legal ul {
+   margin-top: 70px;
+   
+}
+.legal li {
+    padding-right: 20px;
+}
+
+.footnote p {
+    color: #6c757d ;
+     margin-top: 85px;
+     
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .navmenu {
+		flex-direction: column !important;
+		text-align: center;
+	}
+    
+    .help img {
+        display: none;
+    }
+    .footer img {
+        max-height: 1.5rem;
+        width: auto;
+    }
+
+
+}
